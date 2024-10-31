@@ -9,5 +9,21 @@
     "issue_comment.edited",
     "issues.unassigned",
     "pull_request.review_requested"
-  ]
+  ],
+  "configuration": {
+    "type": "object",
+    "properties": {
+      "botId": {
+        "default": 7543249164
+      },
+      "shouldUseGithubStorage": {
+        "default": false,
+        "type": "boolean"
+      },
+      "storageOwner": {
+        "default": "ubiquity-os-marketplace",
+        "type": "string"
+      }
+    }
+  }
 }
